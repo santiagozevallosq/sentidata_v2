@@ -61,7 +61,8 @@ def get_mock_tweets(username: str, start_date: str, end_date: str, max_results: 
             "author_id": user_id,
             "referenced_tweets": None
         })
-
+        
+ 
     # Estructura oficial de respuesta
     response = {
         "data": list(reversed(tweets)),  # reverse-chronological order
